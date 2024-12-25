@@ -25,8 +25,8 @@ public class Match {
 
     }
     public static void main(String[] args) {
-        String str = "abcdeabdbabef";
-        String pattern = "abd";
+        String str = "abcdeabdbabef";     //in the worst case...it may run -> O(n*m) .   str= "aaaaaaaaaaaa"
+        String pattern = "abd";           // pattern ="aaaaa"   
         String result = stringMatching(str,pattern);
         System.out.println(result);
     }
