@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Equals {
     public static String equalityCheck(String f)
     {
-        if(f=="mango")
+        if(f=="Mango")
         {
             return "Yes";
         }
@@ -12,7 +12,7 @@ public class Equals {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
-        if(s=="paper")
+        if(s.equals("Paper"))
         {
             System.out.println("True");
         }
