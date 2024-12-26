@@ -32,7 +32,7 @@ public class Amazon {
                     l=mid+1;
                 }
                 else{
-                    r = mid -1;   //[7,8,9,1,2,3,4,5,6] target = 1 7<=1 ->No...1<=6->yes..1<=1&& 1<=6 ->l=mid+1...or it is r =mid -1;
+                    r = mid -1;   //[7,8,9,1,2,3,4,5,6] target = 1 7<=1 ->No...2<=1->yes..2<=1&& 1<=6 ->No ->r=mid-1...or it is r =mid -1;
            
                 }
 
