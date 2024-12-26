@@ -21,8 +21,8 @@ public class Amazon {
                 {                                       // the question itself is clearly states that ..it is rotated sorted array
                     r=mid-1;                            // so we can simply use the condition 
                 }
-                else{
-                    l=mid+1;
+                else{ 
+                    l=mid+1;     
                 }
 
             }
@@ -32,7 +32,8 @@ public class Amazon {
                     l=mid+1;
                 }
                 else{
-                    r = mid -1;
+                    r = mid -1;   //[7,8,9,1,2,3,4,5,6] target = 1 7<=1 ->No...1<=6->yes..1<=1&& 1<=6 ->l=mid+1...or it is r =mid -1;
+           
                 }
 
             }
