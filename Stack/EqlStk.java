@@ -1,4 +1,4 @@
-package Stack;
+package stack;
 import java.util.Stack;
 public class EqlStk {
     public static int  equalStack(Stack<Integer>st1,Stack<Integer>st2,Stack<Integer>st3)

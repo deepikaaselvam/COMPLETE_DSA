@@ -20,15 +20,20 @@ class TreeNode{
 }
 
 public class PostOrdr1 {
-    public static ArrayList<Integer> PostOrderUsingStackOne(TreeNode root)
+     static ArrayList<Integer> PostOrderUsingStackOne(TreeNode root)
     {
         ArrayList<Integer>answer=new ArrayList<>();
+        if(root==null)
+        {
+            return answer;
+        }
+     
         Stack<TreeNode>st=new Stack<>();
         st.push(root);
         while(!st.isEmpty())
         {
             TreeNode currentvalue=st.pop();
-            answer.add(currentvalue.value);
+            answer.add(currentvalue.value);  //st.pop().value (or) currentvalue.value
             if(currentvalue.left!=null)
             {
                 st.push(currentvalue.left);
