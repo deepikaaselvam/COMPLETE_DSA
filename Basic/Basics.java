@@ -183,14 +183,14 @@ public class Basics {
 }*/
 package Basic;
 public class Basics {
-    public static int[] uniqueArray(int[]arrray)
+    public static int[] uniqueArray(int[]array)
     {
         int i=0;
-        for(int j=1;j<arrray.length;j++)
+        for(int j=1;j<array.length;j++)
         {
-            if(arrray[i]!=arrray[j])
+            if(array[i]!=array[j])
             {
-                arrray[i+1]=arrray[j];
+                array[i+1]=array[j];
                 i++;
             }
             // System.out.println(arrray[i+1]);
