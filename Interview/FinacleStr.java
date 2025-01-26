@@ -29,7 +29,7 @@ public class FinacleStr {
        
     
     public static void main(String[] args) {
-        String s="0010";
+        String s="100";//"101"=1;//"0010"=3;
         System.out.println(binaryStringExamination(s));
     }
     
