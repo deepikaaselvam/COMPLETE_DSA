@@ -16,6 +16,10 @@ public class Split {
     public static void main(String[] args) {
         String numerous ="Hello;Hii;Hello;Hiii;Hello";
         System.out.println(SplitFunction(numerous));
+        String character = "Deepika";
+        System.out.println(character.codePointAt(3));
+        System.out.println(character.codePointBefore(3));
+        System.out.println(character.codePointCount(0, 3));
     }
     
 }
