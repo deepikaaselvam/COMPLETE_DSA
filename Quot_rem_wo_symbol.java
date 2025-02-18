@@ -24,7 +24,8 @@ public class Quot_rem_wo_symbol {
                 break;
             }
         }
-        System.out.println("Quotient: "+quotient+"  Remainder: "+remainder);;
+        
+        System.out.println("Quotient: "+quotient+"  Remainder: "+remainder);
     kbd.close();
         
     }

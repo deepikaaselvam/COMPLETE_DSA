@@ -5,6 +5,8 @@ public class OptimisedZOHO_Code {
         String digits ="9";
         StringBuilder sb = new StringBuilder(number);
         int maximum = Integer.MIN_VALUE;
+   
+
         for(int i=0;i<sb.length();i++)
         {
             if(sb.charAt(i)==digits.charAt(0))
@@ -16,6 +18,7 @@ public class OptimisedZOHO_Code {
 
                 //insert the removed charcater again into the stringBuilder
                 sb.insert(i,removed);
+                // System.out.println(sb);
 
             }
         }

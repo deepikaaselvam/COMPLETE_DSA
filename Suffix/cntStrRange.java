@@ -1,4 +1,4 @@
-package PrefixSumm;
+package Suffix;
 import java.util.*;
 public class cntStrRange {
     //Intuition ->In the particular range we need to find the count of the Strings in the given range🤔..
@@ -13,6 +13,7 @@ public class cntStrRange {
         for(int i=0;i<words.length;i++)
         {
             String curword =words[i];
+         
             if(voewls.contains(curword.charAt(0)) && voewls.contains(curword.charAt(curword.length()-1)))
             {
                 sum++;

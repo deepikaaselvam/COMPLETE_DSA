@@ -196,7 +196,7 @@ public class Basics {
             // System.out.println(arrray[i+1]);
         }
         int answerArray[]=new int[i+1];
-        System.arraycopy(arrray, 0, answerArray, 0, i+1);
+        System.arraycopy(array, 0, answerArray, 0, i+1);
         return answerArray;
         
     }

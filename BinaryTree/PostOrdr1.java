@@ -1,7 +1,7 @@
 package BinaryTree;
 import java.util.ArrayList;
-import java.util.Stack;
 import java.util.Collections;
+import java.util.Stack;
 class TreeNode{
     int value;
     TreeNode left;

@@ -1,4 +1,5 @@
-package String;
+package Split;
+
 public class Split {
     public static int SplitFunction(String numberous)
     {
@@ -14,6 +15,7 @@ public class Split {
         return cnt;
     }
     public static void main(String[] args) {
+        
         String numerous ="Hello;Hii;Hello;Hiii;Hello";
         System.out.println(SplitFunction(numerous));
         String character = "Deepika";

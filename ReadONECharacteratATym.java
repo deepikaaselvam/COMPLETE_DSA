@@ -4,7 +4,7 @@ public class ReadONECharacteratATym {
     public static void main(String[] args)throws IOException {
         // Scanner kbd = new Scanner(System.in);
         int n= System.in.read(); //ReadsOnly One charcater at the Tym
-        System.out.println(n-48); 
+        System.out.println(n-48);    // -48 =>'0' th ASCII Charcater value
         
     }
 }

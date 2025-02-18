@@ -8,7 +8,7 @@ public class remparan {
         for(int i=0;i<ques.length();i++)
         {
             char ch=ques.charAt(i);
-            if(ch == '(')
+            if(ch=='(')
             {
                 st.push(i);
             }

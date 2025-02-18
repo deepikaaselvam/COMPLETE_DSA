@@ -1,23 +1,29 @@
 package POTD;
 
 public class rotate1PlaceArray {
-    public static int[] rotateOneplace(int[]nums)
+    public static int[] rotateDplace(int[]nums,int d )
     {
-        int temp =nums[0];
-        for(int i=1;i<nums.length;i++)
+        int tempArray[] = new int[d];
+        for(int i=d;i<nums.length;i++)
         {
-            nums[i-1]=nums[i];
+            nums[i-d]=nums[i];
         }
-        nums[nums.length-1]=temp;
+        for(int i=0;i<d;i++)
+        {
+           tempArray[i]=nums[i];
+        }
+        
         return nums;
     }
     public static void main(String[] args) {
         int[]array={1,2,3,4,5,6};
-        int[]answer=rotateOneplace(array);
+        int D=2;
+        int[]answer=rotateDplace(array,D);
         for(int i=0;i<answer.length;i++)
         {
             System.out.print(answer[i]+" ");
         }
     }
+    //System.arraycopy(nums, 0, tempArray, 0, d);
     
 }

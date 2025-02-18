@@ -24,7 +24,7 @@ public class LComPrfix {
  
     }
     public static void main(String[] args) {
-        String []QuestionString={"flower","flow","flight"};
+        String []QuestionString={"c","accc","ccc"};//{"flower","flow","flight"};
         LComPrfix obj = new LComPrfix();
         System.out.println(obj.longestCommonPrefix(QuestionString));
     }

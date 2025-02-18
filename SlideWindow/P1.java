@@ -1,4 +1,4 @@
-package Program;
+package SlideWindow;
 
 public class P1 {
     public static int arraySign(int[] nums) {

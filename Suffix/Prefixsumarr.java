@@ -1,4 +1,4 @@
-package PrefixSumm;
+package Suffix;
 public class Prefixsumarr {
 
     public static void main(String[] args) {
