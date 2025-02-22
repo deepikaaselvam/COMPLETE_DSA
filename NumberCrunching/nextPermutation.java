@@ -14,7 +14,7 @@ public class nextPermutation{
     }
 public  static int[] nxtPermutation(int[] arr) {
     boolean flag =false;
-    int i=arr.length-1;int value =0;
+    int i=arr.length-1;int value;
     while(i>=0)
     {
             int j=i-1;
